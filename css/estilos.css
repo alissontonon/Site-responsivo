@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family: "Open Sans", Helventica, Arial, sans-serif;
+	color: #4d4d4d4;
+}
+h1, h2, h3{
+	margin: 0;
+	font-family: "Roboto Slab",Helventica, Arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	color: #32CD32;
+}
+h2{
+	text-align: center;
+width: 100%;}
+	
+.botao{
+	color: #f1f1f1;
+	text-decoration:none;
+	padding: 15px 30px;
+	background-color: #060606;
+	font-size: 0.9em;
+	border-radius: 6px;
+}
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#060606;
+	padding: 5px;
+}
+nav > a{
+	text-decoration: none;
+	color: #7fcc3f;
+	font-weight: 700;
+	font-size: 50px;
+	font-family: Arial, serif;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+nav ul li{
+	text-align: center;
+	width: 100%
+}
+nav ul li a{
+	display: inline-block;
+	padding: 3px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #7fcc3f;
+	font-size: 20px;
+}
+img{
+	width: 50%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+	
+header{
+	color: #060606;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-indent: justify;
+	padding:80px;
+}
+header p{
+	margin-bottom: auto;
+	max-width: 1000px;
+}
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-indent: justify;
+	background-color: #ffff;
+	color: #060606;
+	padding: 210px;
+}
+#sobre p{
+	margin-bottom: 0.5em;
+    max-width: 2500px;
+	font-size: 1.1em;
+}
+#sobre .botao{
+	background: #060606;
+	color: #7fcc3f;
+}
+#servicos{
+	padding: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#servicos div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#servicos img{
+	width: 40%;
+}
+#portfolio{
+	padding: 1px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	margin: 150px;
+}
+#portfolio h2{
+	margin-bottom: 20px;
+}
+#portfolio img{
+	max-width: 100%;
+	max-height:100%;
+	transition: 0.75s;
+}
+#portfolio:hover img{
+transform: scale(1.2);
+}
+
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 5px;
+}
+#contato img{
+	width: 25%;
+}
+footer{
+	text-align: center;
+	background-color: #7fcc3f;
+	padding: 20px;
+	color:#060606;
+}
+@media screen and (min-width: 768px){
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav ul{
+		flex-direction: row;
+		width: 70%;
+	}
+	header{
+		height: 1000px;
+		height: 70vh;
+		justify-content: center;
+	}
+	#sobre{
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: 250px;
+	}
+	#servicos{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	#servicos h2{
+		text-align: center;
+		width: 100%;
+	}
+	#servicos div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+	#portfolio{
+		flex-direction: row;
+	    flex-wrap: wrap;
+	}
+
+	#portfolio img{
+		width:80%;
+	}
+	#contato{
+		flex-direction: row;
+	    flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	#contato h2,
+	#contato p{
+		width: 100%
+	}
+	
+		
+		
+		
+}
+
+	
+		
+	
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
