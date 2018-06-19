@@ -10,7 +10,7 @@ h1, h2, h3{
 	margin: 0;
 	font-family: "Roboto Slab",Helventica, Arial, sans-serif;
 	font-weight: 700;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.7em;
 	color: #32CD32;
 }
 h2{
@@ -20,10 +20,10 @@ width: 100%;}
 .botao{
 	color: #f1f1f1;
 	text-decoration:none;
-	padding: 15px 30px;
+	padding: 10px 25px;
 	background-color: #060606;
 	font-size: 0.9em;
-	border-radius: 6px;
+	border-radius: 3px;
 }
 nav{
 	display: flex;
@@ -71,7 +71,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	text-indent: justify;
-	padding:80px;
+	padding:1%;
 }
 header p{
 	margin-bottom: auto;
@@ -84,7 +84,7 @@ header p{
 	text-indent: justify;
 	background-color: #ffff;
 	color: #060606;
-	padding: 210px;
+	padding: 1%;
 }
 #sobre p{
 	margin-bottom: 0.5em;
@@ -96,7 +96,7 @@ header p{
 	color: #7fcc3f;
 }
 #servicos{
-	padding: 150px;
+	padding: 10%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -112,7 +112,7 @@ header p{
 	width: 40%;
 }
 #portfolio{
-	padding: 1px;
+	padding: 5%;
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
@@ -200,11 +200,7 @@ footer{
 	#contato h2,
 	#contato p{
 		width: 100%
-	}
-	
-		
-		
-		
+	}		
 }
 
 	
